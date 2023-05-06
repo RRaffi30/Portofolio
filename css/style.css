@@ -1,0 +1,16 @@
+body{
+    background-image: url('/image/background/home-light.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;  
+    background-size: cover;
+}
+
+.square {
+    height: 40px;
+    width: 100%px;
+    background-color: #212529;
+  }
+
+#sosmed {
+    background-color: white;
+}
