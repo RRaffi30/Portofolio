@@ -19,3 +19,12 @@ body{
 #black {
     color: black;
 }
+
+article {
+    background-color: rgb(56, 56, 56);
+    opacity: 75%;
+    border-radius:2%;
+    width:32%;
+    height: 500px;
+    box-shadow: 5px 10px #000000;
+}
