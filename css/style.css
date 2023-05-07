@@ -12,8 +12,15 @@ body{
     background-color: #212529;
   }
 
-#sosmed {
-    background-color: white;
+.logo {
+  width: 5%;
+  margin-left: 10%;
+}
+
+.snslink {
+  font-size: x-large;
+  text-decoration: none;
+  color: #000000;
 }
 
 #black {
@@ -25,6 +32,67 @@ article {
     opacity: 75%;
     border-radius:2%;
     width:32%;
-    height: 500px;
+    height: 100%;
     box-shadow: 5px 10px #000000;
 }
+
+.article2 {
+  background-color: rgb(56, 56, 56);
+  opacity: 75%;
+  border-radius:2%;
+  width:32%;
+  height: 600px;
+  box-shadow: 5px 10px #000000;
+}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  
+  input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+  
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .left, .right {
+    float: left;
+    width: 20%; /* The width is 20%, by default */
+  }
+  
+  .main {
+    float: left;
+    width: 50%; /* The width is 60%, by default */
+  }
+  
+  /* Use a media query to add a breakpoint at 800px: */
+  @media screen and (max-width: 800px) {
+    .left, .main, .right {
+      width: 100%; /* The width is 100%, when the viewport is 800px or smaller */
+    }
+  }
+
+  .hr1 {
+    width: 80%;
+    margin: 9%;
+  }
